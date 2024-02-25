@@ -6,9 +6,8 @@ function NavItems() {
       <div className="flex ">
           {/* Nav items container */}
           <div className="flex items-center text-nowrap">
-            <div className="mx-4 font-bold">HOME</div>
-            <div className="mx-4 font-bold flex items-center">
-              <div>DEVELOPMENT</div>
+            <div className="mx-3 flex items-center">
+              <div>Development</div>
               <div>
                 <svg
                   stroke="currentColor"
@@ -24,8 +23,8 @@ function NavItems() {
                 </svg>
               </div>
             </div>
-            <div className="mx-4 font-bold flex items-center">
-              <div>DIGITAL MARKETING</div>
+            <div className="mx-3 flex items-center">
+              <div>Digital Marketing</div>
               <div>
               <svg
                   stroke="currentColor"
@@ -41,8 +40,8 @@ function NavItems() {
                 </svg>
               </div>
             </div>
-            <div className="mx-4 font-bold flex items-center">
-              <div>BECOME A BRAND</div>
+            <div className="mx-3 flex items-center">
+              <div>Become a brand</div>
               <div>
               <svg
                   stroke="currentColor"
@@ -58,9 +57,9 @@ function NavItems() {
                 </svg>
               </div>
             </div>
-            <div className="mx-4 font-bold">PORTFOLIO</div>
-            <div className="mx-4 font-bold">ABOUT US</div>
-            <div className="mx-4 font-bold">CONTACT US</div>
+            <div className="mx-3">Showcase</div>
+            <div className="mx-3">About us</div>
+            <div className="mx-3">Contact us</div>
             {/* <div className="mx-4 font-bold w-0.5 h-1/2 bg-white"></div> */}
           </div>
          
