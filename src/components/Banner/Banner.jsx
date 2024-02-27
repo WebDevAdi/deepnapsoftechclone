@@ -2,7 +2,7 @@ import React from 'react'
 
 function Banner() {
   return (
-    <div className='banner '>
+    <div className='banner'>
       <div className='flex items-center justify-around max-w-[1500px] mx-auto'>
         
       <div className='sm:max-w-[600px] md:max-w-[600px] lg:max-w-[880px]  px-10 my-10'>
