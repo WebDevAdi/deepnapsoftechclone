@@ -1,17 +1,34 @@
 import React from "react";
-import "./Navbar.css";
 import NavItems from "./NavItems";
 import { NavLink } from "react-router-dom";
+import Sidebar from "../Sidebar/Sidebar";
 
 function Navbar() {
   const handleBookDemo = (e) =>{
     e.target.nextElementSibling.classList.toggle('smooth-demo-drop')
   }
+
+  const handleCloseSidebar = () => {
+    document.querySelector('.sidebar').classList.remove('sidebar-smooth')
+  }
+  
+  const handleOpenSidebar = () =>{
+    document.querySelector('.sidebar').classList.add('sidebar-smooth')
+  }
   return (
-    <nav className="bg-black text-white sticky top-0 z-30">
+    <nav className="bg-black text-white fixed w-full top-0 z-10">
+
+      <div>
+        {/* sidebar */}
+
+        <div className="sidebar">
+          <Sidebar handleCloseSidebar={handleCloseSidebar} />
+        </div>
+      </div>
+
       <div className="flex items-center justify-between max-w-[1500px] px-10 mx-auto max-h-[80px]">
         <div className="flex items-center">
-          <div className="text-xl mx-3 lg:hidden">
+          <div className="text-xl mx-3 lg:hidden cursor-pointer" onClick={handleOpenSidebar} >
             {/* hamburger icon */}
             <i className="fa-solid fa-bars"></i>
           </div>

@@ -8,6 +8,7 @@ import BookDemo from './BookDemo/BookDemo'
 import Input from './Input/Input'
 import Achievements from './Achievments/Achievements'
 import TeamProfile from './TeamProfile/TeamProfile'
+import Sidebar from './Sidebar/Sidebar'
 
 export {
     Navbar,
@@ -19,5 +20,6 @@ export {
     BookDemo,
     Input,
     Achievements,
-    TeamProfile
+    TeamProfile,
+    Sidebar
 }

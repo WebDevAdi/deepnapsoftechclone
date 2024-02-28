@@ -6,7 +6,9 @@ function Layout() {
   return (
     <>
       <Navbar />
+      <div className="my-20">
       <Outlet />
+      </div>
       <Footer />
     </>
   );

@@ -37,7 +37,8 @@ function Home() {
       </div>
 
       <div>
-        <WhyDeepnapsoftech />
+        {/* fix this component as it is causing horizontal scrollbar in mobile devices */}
+        {/* <WhyDeepnapsoftech /> */}
       </div>
 
       <div>
