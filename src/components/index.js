@@ -9,6 +9,7 @@ import Input from './Input/Input'
 import Achievements from './Achievments/Achievements'
 import TeamProfile from './TeamProfile/TeamProfile'
 import Sidebar from './Sidebar/Sidebar'
+import InfiniteSlidingLang from './InfiniteSlidingLang/InfiniteSlidingLang'
 
 export {
     Navbar,
@@ -21,5 +22,6 @@ export {
     Input,
     Achievements,
     TeamProfile,
-    Sidebar
+    Sidebar,
+    InfiniteSlidingLang
 }

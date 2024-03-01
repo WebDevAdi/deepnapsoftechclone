@@ -5,6 +5,7 @@ import {
   Banner,
   BookDemo,
   DomainCards,
+  InfiniteSlidingLang,
   ServicesCard,
   WhyDeepnapsoftech,
 } from "../../components";
@@ -38,12 +39,16 @@ function Home() {
 
       <div>
         {/* fix this component as it is causing horizontal scrollbar in mobile devices */}
-        {/* <WhyDeepnapsoftech /> */}
+        <WhyDeepnapsoftech />
       </div>
 
       <div>
         {/* Deepnapsoftech synergy */}
         <BookDemo />
+      </div>
+
+      <div>
+        <InfiniteSlidingLang />
       </div>
 
       <div>
